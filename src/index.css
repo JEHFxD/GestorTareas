@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.head{
+  width: 100%;
+}
+
+header {
+  background-color: #294c80;
+  padding: 20px;
+margin-bottom: 2%;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.bodyDiv {
+  margin-top: 10%;
+}
+
+button :hover{
+  cursor: pointer;
+  background-color: #294c80;
+}

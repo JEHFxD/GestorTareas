@@ -1,0 +1,17 @@
+.Filter-Button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color:#248ea8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  
+  .Filter-Button:hover {
+    background-color: #29777c;
+  }
+  

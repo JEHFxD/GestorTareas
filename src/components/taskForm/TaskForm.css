@@ -1,0 +1,44 @@
+
+:root{
+    --blueC: var(#294c80);
+}
+.task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .task-textarea {
+    width: 80%; 
+    height: 80px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none; 
+    margin-left: 10%;
+  }
+  
+  .task-textarea:focus {
+    border-color: #294c80; 
+    outline: none; 
+  }
+  
+  .task-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color:#294c80;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-left: 10%;
+  }
+  
+  .task-button:hover {
+    background-color: #1276e0;
+  }
+  
